@@ -31,7 +31,9 @@ varTypes = {'char','char'};
 delimiter = ':';
 dataStartLine = 9; % check this value since it could variate
 % extraColRule = 'ignore';
-opts = delimitedTextImportOptions('VariableNames',varNames,'VariableTypes',varTypes,'Delimiter',delimiter,'DataLines', dataStartLine);
+opts = delimitedTextImportOptions('VariableNames',varNames, ...
+'VariableTypes',varTypes,'Delimiter',delimiter,'DataLines', dataStartLine, ...
+'Encoding','UTF-8');
 
 % Getting all the .txt files in the folder
 A = dir('*.txt');
