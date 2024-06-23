@@ -1,2 +1,2 @@
 # NLA-ts
-Set of Matlab functions related to speech andt text processing
+Set of Matlab functions related to speech and text processing
